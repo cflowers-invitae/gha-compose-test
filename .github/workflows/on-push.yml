@@ -6,6 +6,6 @@ jobs:
     steps:
       - run: echo "My first step"
   Step-Two-Composite:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: ./.github/actions/composite-action
