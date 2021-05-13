@@ -8,4 +8,4 @@ jobs:
   Step-Two-Composite:
   runs-on: ubuntu-latest
     steps:
-      uses: ./.github/actions/composite-action
+      - uses: ./.github/actions/composite-action
