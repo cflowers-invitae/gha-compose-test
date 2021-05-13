@@ -1,0 +1,11 @@
+name: On Push
+on: [push]
+jobs:
+  Step-One:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "My first step"
+  Step-Two-Composite:
+  runs-on: ubuntu-latest
+    steps:
+      uses: ./.github/actions/composite-action
