@@ -1,0 +1,9 @@
+name: Composite test
+description: Composite test description
+runs:
+  using: 'composite'
+  steps:
+    - run: echo Hi there friendo
+      shell: bash
+    - run: echo bye
+      shell: bash
